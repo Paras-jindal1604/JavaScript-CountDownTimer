@@ -1,0 +1,114 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+.bg {
+  color: white;
+  height: 100vh;
+  width: 100vw;
+
+  background: linear-gradient(to right, #1D2671, #C33764);
+  animation: gradientchange 10s  ease-in-out infinite;
+}
+
+@keyframes gradientchange {
+  0% {
+    background: linear-gradient(to right, #1D2671, #C33764);
+  }
+  20% {
+    background: linear-gradient(to right, #71B280, #134E5E);
+  }
+  40% {
+    background: linear-gradient(to right, #4286f4, #373B44);
+  }
+  60% {
+    background: linear-gradient(to left, #fdeff9, #ec38bc, #7303c0, #03001e);
+  }
+  80% {
+    background: linear-gradient(to left, #928DAB, #1F1C2C);
+  }
+  100% {
+    background: linear-gradient(to right, #1D2671, #C33764); /* back to start */
+  }
+}
+
+
+
+.date{
+    padding : 5rem;
+}
+
+
+.d1{
+    font-size: 15px;
+}
+
+.d2{
+    font-size: 5rem;
+}
+
+.d3, .d4{
+    font-size: 15px;
+    color: rgb(202, 201, 201);
+}
+
+
+.time{
+    font-size: 2rem;
+}
+
+
+
+.time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.countdown {
+  display: flex;
+  gap: 30px;
+  text-align: center;
+}
+
+.unit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.number {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+
+.label {
+  font-size: 1.2rem;
+}
+
+
+@keyframes gradientChange {
+      0% {
+        background: linear-gradient(to bottom, #ffecd2, #fcb69f);
+      }
+      25% {
+        background: linear-gradient(to bottom, #d9afd9, #97d9e1);
+      }
+      50% {
+        background: linear-gradient(to bottom, #f6d365, #fda085);
+      }
+      75% {
+        background: linear-gradient(to bottom, #cfd9df, #e2ebf0);
+      }
+      100% {
+        background: linear-gradient(to bottom, #ffecd2, #fcb69f); 
+      }
+};
+
+
