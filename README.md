@@ -30,7 +30,7 @@ A simple and visually appealing countdown timer that shows the remaining time un
 
 ## 🖼️ Preview
 
-https://days-until-summer-olympic.netlify.app/
+https://summer-olympic-timer-by-parasj.netlify.app/
 
 ---
 
